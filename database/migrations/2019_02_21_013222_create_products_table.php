@@ -16,7 +16,7 @@ class CreateProductsTable extends Migration
         Schema::create('products', function (Blueprint $table) {
             //Criação dos campos da tabela
             $table->increments('id');
-            $table->integer('qtd')
+            $table->integer('qtd');
             $table->string('descricao', 100);
             $table->float('prc_venda',8,2);
             $table->float('prc_compra',8,2);
