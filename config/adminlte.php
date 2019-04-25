@@ -122,10 +122,10 @@ return [
             'label_color' => 'success',
         ],
         [
-            'text'        => 'Cadastro',
-            'url'         => 'admin/cadastro',
+            'text'        => 'Classificação',
+            'url'         => 'classifications',
             'icon'        => 'users',
-            'label'       => 30,
+            'label'       => 0,
             'label_color' => 'danger',
         ],
         'ACCOUNT SETTINGS',
